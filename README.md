@@ -1,16 +1,112 @@
-# React + Vite
+# 💰 SplitMate – Smart Shared Expense Splitter
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+SplitMate is a full-stack web application designed to simplify shared expense management among friends, students, roommates, and travel groups.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User Registration and Login
+- Secure Email Authentication
+- Protected Routes
+- Group Creation and Member Management
+- Automatic Equal Expense Splitting
+- Interactive Dashboard
+- Expense Analytics and Charts
+- Transaction History and Search
+- Payment Settlement Tracking
+- Automatic Outstanding Balance Calculation
+- Cloud Database Storage
+- Responsive User Interface
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend Development |
+| Vite | Build Tool |
+| JavaScript | Application Logic |
+| React Router | Page Navigation |
+| Supabase | Backend and Authentication |
+| PostgreSQL | Database |
+| CSS3 | UI Design |
+| Recharts | Data Visualization |
+| Lucide React | Icons |
+| Git & GitHub | Version Control |
 
-## Expanding the Oxlint configuration
+## 🗄️ Database Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- profiles
+- groups
+- group_members
+- expenses
+- settlements
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Tuhin-mondal02/SplitMate-Shared-Expense-Splitter.git
+```
+
+Open the project directory:
+
+```bash
+cd SplitMate-Shared-Expense-Splitter
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_PUBLISHABLE_KEY=your_publishable_key
+```
+
+Configure the required database tables and Row Level Security policies in your Supabase project.
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🔐 Security
+
+- Supabase Authentication
+- Email Verification
+- Row Level Security
+- Protected Application Routes
+- Account-based Data Isolation
+- Environment Variable Configuration
+
+## 📌 Future Enhancements
+
+- Online Payment Gateway
+- Unequal Expense Splitting
+- PDF Report Generation
+- Multi-user Group Collaboration
+- Payment Reminders
+- Advanced Financial Analytics
+
+## 🎓 Academic Project
+
+**Course:** Bachelor of Computer Applications (BCA)
+
+**University:** Brainware University
+
+**Project:** Full Stack Development – Project 1
+
+## 👨‍💻 Developer
+
+**Tuhin Mondal**
+
+GitHub: https://github.com/Tuhin-mondal02
+
+---
+
+**SplitMate – Split Expenses. Stay Organized.**
